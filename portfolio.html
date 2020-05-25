@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
     <title>My Portfolio</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <h1 class="navbar-brand">Mohammed-Yasir Suara</h1>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <a class="navbar-brand" href="#">Mohammed-Yasir Suara</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse" id="navbarMenu">
           <!--Links to other pages-->
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
@@ -26,7 +30,7 @@
             </li>
           </ul>
         </div>
-      </nav>
+    </nav>
 
       <div class="container">
         <h1>Portfolio</h1><hr>
@@ -35,7 +39,7 @@
           <div class="col-lg-6 col-md-12">
             <div class="card">
               <div class="card-body">
-                <img src="https://localist-images.azureedge.net/photos/30759307262009/big_square/d584473042794413e39266abbeed1ce421b82669.jpg" alt="chess">
+                <img src="https://localist-images.azureedge.net/photos/30759307262009/big_square/d584473042794413e39266abbeed1ce421b82669.jpg" width="500px" height="500px" alt="chess">
               </div>
               <div class="card-footer">
                 Chess Game
@@ -46,7 +50,7 @@
           <div class="col-lg-6 col-md-12">
             <div class="card">
               <div class="card-body">
-                <img src="data:image/jpeg;base64,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" alt="What Do You Meme?">
+                <img src="images/wdym.png" width="500px" height="500px" alt="What do you meme?">
               </div>
               <div class="card-footer">
                 What Do You Meme? Game
@@ -58,7 +62,7 @@
           <div class="col-lg-6 col-md-12">
             <div class="card">
               <div class="card-body">
-                <img src="https://imgs2.dab3games.com/uno-online-game.png" alt="Uno">
+                <img src="https://imgs2.dab3games.com/uno-online-game.png" width="500px" height="500px" alt="Uno">
               </div>
               <div class="card-footer">
                 Uno
@@ -69,7 +73,7 @@
           <div class="col-lg-6 col-md-12">
             <div class="card">
               <div class="card-body">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQJxXNwJyhiOvF-yt8uCqu2lSB6dDOINpaNZ1yPmyAOyPwHaRbK&usqp=CAU" alt="Sudoku">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQJxXNwJyhiOvF-yt8uCqu2lSB6dDOINpaNZ1yPmyAOyPwHaRbK&usqp=CAU" width="500px" height="500px" alt="Sudoku">
               </div>
               <div class="card-footer">
                 Sudoku
