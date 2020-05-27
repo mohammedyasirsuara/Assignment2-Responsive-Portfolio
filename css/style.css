@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 *{
     box-sizing: border-box;
     padding: 0;
@@ -5,11 +7,28 @@
 }
 
 body{
-    background-color: green;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-    width: 100%;
-    background-color: paleturquoise;
+.navbar-brand{
+    font-family: 'Roboto', sans-serif;
 }
 
+nav ul{
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+div p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1em;
+}
+
+nav ul li a:hover{
+    background-color: rgb(119, 119, 119);
+}
+
+nav ul li a:focus{
+    background-color: rgb(68, 54, 54);
+}

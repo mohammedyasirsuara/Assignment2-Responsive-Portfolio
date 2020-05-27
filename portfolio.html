@@ -1,87 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    
-    <title>My Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <style>
+    .container {
+      padding-bottom: 10px;
+      margin: 10px;
+    }
+
+  </style>
+
+  <title>My Portfolio</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Mohammed-Yasir Suara</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarMenu">
-          <!--Links to other pages-->
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Mohammed-Yasir Suara</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarMenu">
+      <!--Links to other pages-->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1>Portfolio</h1>
+    <hr>
+    <div class="row">
+      <div class="col-9">
+
+        <div class="row row-cols-1 row-cols-md-2">
+
+          <div class="col mb-4">
+            <div class="card">
+              <img class="img-fluid" src="https://i1.sndcdn.com/avatars-000496217034-clqgrw-t500x500.jpg" alt="uno">
+              <div class="card-body">
+                <h5 class="card-footer">Uno</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card">
+              <img class="img-fluid" src="https://cdn.shopify.com/s/files/1/1557/0087/products/WDYM-Clean-02_2048x2048.jpg?v=1563230026
+                          " alt="What Do You Meme">
+              <div class="card-body">
+                <h5 class="card-footer">What Do You Meme</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card">
+              <img class="img-fluid"
+                src="https://cornerstonecapinc.com/wp-content/uploads/chessshutterstock_1124325452cropped-375x375.jpg"
+                alt="Chess">
+              <div class="card-body">
+                <h5 class="card-footer">Chess</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card">
+              <img class="img-fluid"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Sudoku_Puzzle_by_L2G-20050714_standardized_layout.svg/375px-Sudoku_Puzzle_by_L2G-20050714_standardized_layout.svg.png"
+                alt=" Sudoku">
+              <div class="card-body">
+                <h5 class="card-footer">Sudoku</h5>
+              </div>
+            </div>
+          </div>
+
         </div>
-    </nav>
 
-      <div class="container">
-        <h1>Portfolio</h1><hr>
-        <div class="row">
-
-          <div class="col-lg-6 col-md-12">
-            <div class="card">
-              <div class="card-body">
-                <img src="https://localist-images.azureedge.net/photos/30759307262009/big_square/d584473042794413e39266abbeed1ce421b82669.jpg" width="500px" height="500px" alt="chess">
-              </div>
-              <div class="card-footer">
-                Chess Game
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 col-md-12">
-            <div class="card">
-              <div class="card-body">
-                <img src="images/wdym.png" width="500px" height="500px" alt="What do you meme?">
-              </div>
-              <div class="card-footer">
-                What Do You Meme? Game
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-6 col-md-12">
-            <div class="card">
-              <div class="card-body">
-                <img src="https://imgs2.dab3games.com/uno-online-game.png" width="500px" height="500px" alt="Uno">
-              </div>
-              <div class="card-footer">
-                Uno
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-lg-6 col-md-12">
-            <div class="card">
-              <div class="card-body">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQJxXNwJyhiOvF-yt8uCqu2lSB6dDOINpaNZ1yPmyAOyPwHaRbK&usqp=CAU" width="500px" height="500px" alt="Sudoku">
-              </div>
-              <div class="card-footer">
-                Sudoku
-              </div>
-            </div>
-          </div>
-
-        </div>
       </div>
+    </div>
+  </div>
+
 </body>
+
 </html>
